@@ -1,0 +1,86 @@
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    background-color: $dark-gray;
+    padding: 0 25px 0 25px;
+    // border: 1px solid white;
+}
+
+.nav-left {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+
+    h1 {
+        font-family: 'Tangerine', cursive;
+        font-size: xx-large;
+        letter-spacing: 3px;
+        margin-right: 15px;
+        cursor: pointer;
+        background-color: $fadeBlack;
+        color: $salmon;
+        padding: 5px 10px;
+        border-radius: 5px;
+    }
+
+    input {
+        width: 50%;
+        border-radius: 10px;
+        padding: 15px;
+        margin-left: 15px;
+        height: 60%;
+        border: 1px solid darkgray;
+        background-color: rgba(71, 44, 44, 0.424);
+        color: antiquewhite;
+    }
+
+    .plch::-webkit-input-placeholder {
+        color: antiquewhite;
+    }
+}
+
+.nav-right {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+
+    button {
+        padding: 10px 0;
+        width: 80px;
+        border-radius: 10px;
+
+    }
+
+    .btn-login {
+        background-color: $teal;
+        color: green;
+        font-size: 1.1em;
+        letter-spacing: .6px;
+        margin-right: 20px;
+        cursor: pointer;
+        border: 1px solid;
+    }
+
+    .btn-login:hover {
+        color: white;
+    }
+
+    .btn-signUp {
+        background-color: $light-blue;
+        border: 1px solid blue;
+        margin-right: 20px;
+        color: $dark-blue;
+        font-size: 1.1em;
+        padding: 0 5px 0 5px;
+        cursor: pointer;
+    }
+
+    .btn-signUp:hover {
+        color: white;
+    }
+}

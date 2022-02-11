@@ -1,0 +1,33 @@
+// default
+$dark-gray : rgb(131, 131, 131);
+$teal : rgb(40, 233, 136);
+$salmon : rgb(255, 157, 146);
+$fadeBlue : rgb(53, 107, 255);
+$fadeBlack : rgb(34, 33, 33);
+$dark-blue : rgb(0, 0, 41);
+$light-blue : rgb(80, 126, 253);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(34, 33, 33);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    max-width: 1300px;
+    min-width: 576px;
+    // border: 1px solid white;
+}
+
+@import 'navbar';
+@import 'main';
+@import 'responsive';
